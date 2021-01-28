@@ -1,0 +1,84 @@
+/* HEADER */
+header {
+  width: 1000px;
+  position: fixed;
+  top: 15px;
+  left: 220px;
+  font-family: Futura;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  z-index: 5;
+  color: #00A99D;
+  text-shadow: 2px 0px 1px black; 
+  margin: 0;
+
+}
+
+p {
+  font-size: 15px;
+  position: absolute;
+  top: 25%;
+  right: 14%;
+  font-weight: 100;
+  color: black;
+  text-shadow: 0 0 0;
+}
+
+
+/* KEYPILLAR POSITIONING */
+
+.keypillarcontainer { position: fixed;
+  width: 1000px;
+  top: 4vh;
+left:12vw;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.keypillar {
+  position: absolute;
+  width: 900px;
+  left: 5%;
+  top: 40px;
+  z-index: 10;
+}
+
+.pillarleg {
+  display: flex;
+  position: absolute;
+  top: 279px;
+  left: 10%;
+  margin: 0 0;
+  padding: 0;
+}
+
+.leg {
+  flex: 0 0 50px;
+  padding: 5px;
+  width: 62px;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+
+}
+
+.legAnimate {
+  transform: translateY(-30px);
+}
+
+
+footer {
+  font-family: Futura;
+  font-size: 10px;
+  color: #00A99D;
+  position: fixed;
+  bottom: 150px;
+  z-index: 10;
+  text-align: center;
+  left: 40%;
+  width: 700px;
+}
